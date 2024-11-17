@@ -1,4 +1,4 @@
-# Syst-me-de-Classification-d-images-de-cultures-agricoles
+# Systeme-de-Classification-d-images-de-cultures-agricoles
 Ce projet vise à concevoir, développer et mettre en œuvre un système de classification de cultures
 agricoles à partir d'images. Le jeu de données comprend des images de diverses cultures, chacune
 stockée dans des dossiers séparés représentant différents types de cultures. Ainsi, l'objectif principal
