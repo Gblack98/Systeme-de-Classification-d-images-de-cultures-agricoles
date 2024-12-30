@@ -83,9 +83,10 @@ if uploaded_file:
         st.write(f"{rank}. **{cls}** : {prob:.2f}%")
 
     # Réinitialiser en réinitialisant les variables de session
+   # Réinitialiser en réinitialisant les variables de session
     if st.button("Réinitialiser"):
         st.session_state.clear()  # Efface toutes les variables de session
-        st.query_params()  # Efface les paramètres de l'URL
+        st.query_params.clear()  # Efface les paramètres de l'URL
 
 
 else:
