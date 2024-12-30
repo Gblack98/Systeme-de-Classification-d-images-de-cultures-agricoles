@@ -50,7 +50,7 @@ uploaded_file = st.file_uploader("Chargez une image (formats acceptés : jpg, jp
 if uploaded_file:
     # Afficher l'image chargée
     image = Image.open(uploaded_file)
-    st.image(image, caption="Image chargée", use_column_width=True)
+    st.image(image, caption="Image chargée", use_container_width=True)
 
     # Prédiction
     with st.spinner("Analyse de l'image..."):
